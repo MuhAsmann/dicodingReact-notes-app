@@ -1,4 +1,4 @@
-* {
+*  {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,6 +8,11 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #202124;
   color: white;
+}
+
+.svg-icon {
+  width: 24px;
+  height: 24px;
 }
 
 input, textarea {
@@ -37,6 +42,11 @@ input::placeholder, textarea::placeholder {
   margin: 8px 0;
   flex: 1;
   color: white;
+}
+.note-app__header__search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 
@@ -87,6 +97,10 @@ input::placeholder, textarea::placeholder {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.note-input button:hover{
+  background-color: green;
 }
 
 .notes-list {
